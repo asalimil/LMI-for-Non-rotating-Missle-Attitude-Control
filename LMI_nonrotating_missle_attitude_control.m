@@ -1,4 +1,6 @@
-%% LMI for Non-rotating Missle Attitude
+%% LMI for Non-rotating Missle Attitude Control (Pitch and Yaw/Roll Channels)
+% We used the matrices A, B1, B2, C, D1, D2 for Yaw/Roll channel in this simulation
+
 clc; clear; close all;
 
 A = [-0.5 1 0 0 0
